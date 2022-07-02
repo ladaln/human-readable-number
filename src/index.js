@@ -12,6 +12,6 @@ module.exports = function toReadable(number) {
 	readable += (n[5] != 0) ? (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) : '';
 	return readable;
 }
-console.log(toReadable(15))
+
 
 
